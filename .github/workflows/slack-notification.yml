@@ -1,0 +1,60 @@
+name: release-deploy
+
+on:
+  push:
+    branches-ignore:
+      - 'empty'
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Get Changed Directories
+        id: changedirs
+        run: |
+          DIRS=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | cut -d/ -f1 | sort -u | grep -v '^$' || true)
+          echo "dirs=$DIRS"
+          echo "dirs=$DIRS" >> $GITHUB_OUTPUT
+
+      - name: Skip if no changes
+        run: |
+          if [ -z "${{ steps.changedirs.outputs.dirs }}" ]; then
+            echo "No changed directories. Skipping..."
+            exit 78  # GitHub Actions will treat this as 'neutral', i.e. job skipped
+          fi
+
+      - name: Send Slack Notification
+        if: always()
+        run: |
+          DIR_LIST=$(echo "${{ steps.changedirs.outputs.dirs }}" | tr ' ' '\n' | sed '/^$/d' | awk '{print "- " $0}' | paste -sd '\n' -)
+          STATUS=${{ job.status }}
+          COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
+
+          curl -X POST -H 'Content-type: application/json' --data "{
+            \"text\": \"🔔 *[${{ github.repository }}]* \`${{ github.ref_name }}\` 배포 결과\",
+            \"blocks\": [
+              {
+                \"type\": \"section\",
+                \"text\": {
+                  \"type\": \"mrkdwn\",
+                  \"text\": \"*Workflow:* \`${{ github.workflow }}\`\n*Status:* \`${STATUS}\`\n*Changed Directories:*\n${DIR_LIST}\"
+                }
+              },
+              {
+                \"type\": \"section\",
+                \"text\": {
+                    \"type\": \"mrkdwn\",
+                    \"text\": \"*Commit Message:* _${COMMIT_MESSAGE}_\"
+                }
+              },
+              {
+                \"type\": \"context\",
+                \"elements\": [
+                  {
+                    \"type\": \"mrkdwn\",
+                    \"text\": \"Author: ${{ github.actor }} | Commit: <https://github.com/${{ github.repository }}/commit/${{ github.sha }}|${{ github.sha }}>\"
+                  }
+                ]
+              }
+            ]
+          }" ${{ secrets.SLACK_WEBHOOK_URL }}
