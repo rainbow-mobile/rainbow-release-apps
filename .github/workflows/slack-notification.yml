@@ -48,15 +48,7 @@ jobs:
             DIR_LIST=$(echo "${{ steps.changedirs.outputs.dirs }}" | tr ' ' '\n' | sed '/^$/d' | awk '{print "- " $0}' | paste -sd '\n' -)
             STATUS=${{ job.status }}
             COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
-            COLOR=""
-        
-            if [ "$STATUS" = "success" ]; then
-                COLOR="good"
-            elif [ "$STATUS" = "failure" ]; then
-                COLOR="danger"
-            else
-                COLOR="warning"
-            fi
+            COLOR="${{ job.status == 'success' && 'good' || (job.status == 'failure' && 'danger' || 'warning') }}"
         
             curl -X POST -H 'Content-type: application/json' --data "{
                 \"attachments\": [
