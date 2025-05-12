@@ -37,11 +37,12 @@ jobs:
 
       - name: Send Slack Notification
         if: steps.changedirs.outputs.has_changes == 'true'
+        env:
+            COLOR: ${{ job.status == 'success' && 'good' || (job.status == 'failure' && 'danger' || 'warning') }}
         run: |
             DIR_LIST=$(echo "${{ steps.changedirs.outputs.dirs }}" | tr ' ' '\n' | sed '/^$/d' | awk '{print "- " $0}' | paste -sd '\n' -)
             STATUS=${{ job.status }}
             COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
-            COLOR="${{ job.status == 'success' && 'good' || (job.status == 'failure' && 'danger' || 'warning') }}"
         
             curl -X POST -H 'Content-type: application/json' --data "{
                 \"attachments\": [
