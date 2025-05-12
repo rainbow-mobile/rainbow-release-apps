@@ -9,10 +9,21 @@ jobs:
   deploy:
     runs-on: self-hosted
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
       - name: Get Changed Directories
         id: changedirs
         run: |
-          DIRS=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | cut -d/ -f1 | sort -u | grep -v '^$' || true)
+          BASE_SHA="${{ github.event.before }}"
+          HEAD_SHA="${{ github.sha }}"
+      
+          if ! git cat-file -e $BASE_SHA^{commit}; then
+            echo "BASE_SHA is invalid, fallback to HEAD~1"
+            BASE_SHA=$(git rev-parse HEAD~1)
+          fi
+      
+          DIRS=$(git diff --name-only $BASE_SHA $HEAD_SHA | cut -d/ -f1 | sort -u | grep -v '^$' || true)
           echo "dirs=$DIRS"
           echo "dirs=$DIRS" >> $GITHUB_OUTPUT
 
@@ -26,45 +37,48 @@ jobs:
       - name: Send Slack Notification
         if: always()
         run: |
-          DIR_LIST=$(echo "${{ steps.changedirs.outputs.dirs }}" | tr ' ' '\n' | sed '/^$/d' | awk '{print "- " $0}' | paste -sd '\n' -)
-          STATUS=${{ job.status }}
-          COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
-          COLOR=""
-
-          if [ "$STATUS" = "success" ]; then
-            COLOR="good"
-          elif [ "$STATUS" = "failure" ]; then
-            COLOR="danger"
-          else
-            COLOR="warning"
-          fi
-
-          curl -X POST -H 'Content-type: application/json' --data "{
-            \"text\": \"🔔 *[${{ github.repository }}]* \`${{ github.ref_name }}\` 배포 결과\",
-            \"blocks\": [
-              {
-                \"color\": \"$COLOR\",
-                \"type\": \"section\",
-                \"text\": {
-                  \"type\": \"mrkdwn\",
-                  \"text\": \"*Workflow:* \`${{ github.workflow }}\`\n*Status:* \`${STATUS}\`\n*Changed Directories:*\n${DIR_LIST}\"
+            DIR_LIST=$(echo "${{ steps.changedirs.outputs.dirs }}" | tr ' ' '\n' | sed '/^$/d' | awk '{print "- " $0}' | paste -sd '\n' -)
+            STATUS=${{ job.status }}
+            COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
+            COLOR=""
+        
+            if [ "$STATUS" = "success" ]; then
+              COLOR="good"
+            elif [ "$STATUS" = "failure" ]; then
+              COLOR="danger"
+            else
+              COLOR="warning"
+            fi
+        
+            curl -X POST -H 'Content-type: application/json' --data "{
+              \"attachments\": [
+                {
+                  \"color\": \"$COLOR\",
+                  \"blocks\": [
+                    {
+                      \"type\": \"section\",
+                      \"text\": {
+                        \"type\": \"mrkdwn\",
+                        \"text\": \":rocket: *[${{ github.repository }}]* \`${{ github.ref_name }}\` 배포 결과\n*Workflow:* \`${{ github.workflow }}\`\n*Status:* \`${STATUS}\`\n*Changed Directories:*\n${DIR_LIST}\"
+                      }
+                    },
+                    {
+                      \"type\": \"section\",
+                      \"text\": {
+                          \"type\": \"mrkdwn\",
+                          \"text\": \"*Commit Message:* _${COMMIT_MESSAGE}_\"
+                      }
+                    },
+                    {
+                      \"type\": \"context\",
+                      \"elements\": [
+                        {
+                          \"type\": \"mrkdwn\",
+                          \"text\": \"Author: ${{ github.actor }} | Commit: <https://github.com/${{ github.repository }}/commit/${{ github.sha }}|${{ github.sha }}>\"
+                        }
+                      ]
+                    }
+                  ]
                 }
-              },
-              {
-                \"type\": \"section\",
-                \"text\": {
-                    \"type\": \"mrkdwn\",
-                    \"text\": \"*Commit Message:* _${COMMIT_MESSAGE}_\"
-                }
-              },
-              {
-                \"type\": \"context\",
-                \"elements\": [
-                  {
-                    \"type\": \"mrkdwn\",
-                    \"text\": \"Author: ${{ github.actor }} | Commit: <https://github.com/${{ github.repository }}/commit/${{ github.sha }}|${{ github.sha }}>\"
-                  }
-                ]
-              }
-            ]
-          }" ${{ secrets.SLACK_WEBHOOK_URL }}
+              ]
+            }" ${{ secrets.SLACK_WEBHOOK_URL }}
