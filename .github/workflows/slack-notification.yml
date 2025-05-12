@@ -1,0 +1,22 @@
+name: release-deploy
+
+on:
+  push:
+    branches-ignore:
+      - 'empty'
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Send Slack Notification
+        uses: 8398a7/action-slack@v3
+        if: always()
+        with:
+          status: ${{ job.status }}
+          author_name: "RainbowRobotics Mobile"
+          fields: repo,commit,message,author
+          mention: here
+          if_mention: failure,cancelled
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
