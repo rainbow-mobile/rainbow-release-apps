@@ -23,7 +23,7 @@ jobs:
           STATUS=${{ job.status }}
           COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
           COLOR=""
-
+      
           if [ "$STATUS" = "success" ]; then
             COLOR="good"
           elif [ "$STATUS" = "failure" ]; then
@@ -31,31 +31,41 @@ jobs:
           else
             COLOR="warning"
           fi
-
+      
           curl -X POST -H 'Content-type: application/json' --data "{
-            \"text\": \"🔔 *[${{ github.repository }}]* \`${{ github.ref_name }}\` 배포 결과\",
-            \"blocks\": [
+            \"attachments\": [
               {
                 \"color\": \"$COLOR\",
-                \"type\": \"section\",
-                \"text\": {
-                  \"type\": \"mrkdwn\",
-                  \"text\": \"*Workflow:* \`${{ github.workflow }}\`\n*Status:* \`${STATUS}\`\n*Changed Directories:*\n${DIR_LIST}\"
-                }
-              },
-              {
-                \"type\": \"section\",
-                \"text\": {
-                    \"type\": \"mrkdwn\",
-                    \"text\": \"*Commit Message:* _${COMMIT_MESSAGE}_\"
-                }
-              },
-              {
-                \"type\": \"context\",
-                \"elements\": [
+                \"blocks\": [
                   {
-                    \"type\": \"mrkdwn\",
-                    \"text\": \"Author: ${{ github.actor }} | Commit: <https://github.com/${{ github.repository }}/commit/${{ github.sha }}|${{ github.sha }}>\"
+                    \"type\": \"section\",
+                    \"text\": {
+                      \"type\": \"mrkdwn\",
+                      \"text\": \"*🔔 [${{ github.repository }}]* \`${{ github.ref_name }}\` 배포 결과\"
+                    }
+                  },
+                  {
+                    \"type\": \"section\",
+                    \"text\": {
+                      \"type\": \"mrkdwn\",
+                      \"text\": \"*Workflow:* \`${{ github.workflow }}\`\n*Status:* \`${STATUS}\`\n*Changed Directories:*\n${DIR_LIST}\"
+                    }
+                  },
+                  {
+                    \"type\": \"section\",
+                    \"text\": {
+                      \"type\": \"mrkdwn\",
+                      \"text\": \"*Commit Message:* _${COMMIT_MESSAGE}_\"
+                    }
+                  },
+                  {
+                    \"type\": \"context\",
+                    \"elements\": [
+                      {
+                        \"type\": \"mrkdwn\",
+                        \"text\": \"Author: ${{ github.actor }} | Commit: <https://github.com/${{ github.repository }}/commit/${{ github.sha }}|${{ github.sha }}>\"
+                      }
+                    ]
                   }
                 ]
               }
