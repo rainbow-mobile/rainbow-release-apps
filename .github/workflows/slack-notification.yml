@@ -36,7 +36,7 @@ jobs:
           fi
 
       - name: Send Slack Notification
-        if: steps.changedirs.outputs.has_changes == 'true'
+        if: steps.changedirs.outputs.has_changes == 'true' && startsWith(github.event.head_commit.message, 'Release App')
         env:
             COLOR: ${{ job.status == 'success' && 'good' || (job.status == 'failure' && 'danger' || 'warning') }}
         run: |
@@ -69,7 +69,7 @@ jobs:
                         \"elements\": [
                         {
                             \"type\": \"mrkdwn\",
-                            \"text\": \"Author: ${{ github.actor }} | Commit: <https://github.com/${{ github.repository }}/commit/${{ github.sha }}|${{ github.sha }}>\"
+                            \"text\": \"Commit: <https://github.com/${{ github.repository }}/commit/${{ github.sha }}|${{ github.sha }}>\"
                         }
                         ]
                     }
