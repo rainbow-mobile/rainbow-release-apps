@@ -48,12 +48,13 @@ jobs:
                 \"attachments\": [
                 {
                     \"color\": \"$COLOR\",
+                    \"text\": \"[${DIR_LIST}] :rocket: 배포가 완료되었습니다.\",
                     \"blocks\": [
                     {
                         \"type\": \"section\",
                         \"text\": {
                         \"type\": \"mrkdwn\",
-                        \"text\": \":rocket: *[${{ github.repository }}]* \`${{ github.ref_name }}\` 배포 결과\n*Workflow:* \`${{ github.workflow }}\`\n*Status:* \`${STATUS}\`\n*Changed Directories:*\n${DIR_LIST}\"
+                        \"text\": \":rocket: *[${{ github.repository }}]* \`${{ github.ref_name }}\` 배포 결과\n*Workflow:* \`${{ github.workflow }}\`\n*Status:* \`${STATUS}\`\n*배포 SW:*\n${DIR_LIST}\"
                         }
                     },
                     {
