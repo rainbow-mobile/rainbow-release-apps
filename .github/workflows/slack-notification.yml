@@ -43,7 +43,7 @@ jobs:
           COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
       
           curl -X POST -H 'Content-type: application/json' --data "{
-            \"text\": \":rocket: [${{ github.repository }}] 배포 완료 - ${STATUS}\",
+            \"text\": \":rocket: [${DIR_LIST}] 배포 완료\",
             \"blocks\": [
               {
                 \"type\": \"section\",
