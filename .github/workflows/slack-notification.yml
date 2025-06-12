@@ -36,44 +36,38 @@ jobs:
           fi
 
       - name: Send Slack Notification
-        if: steps.changedirs.outputs.has_changes == 'true'
-        env:
-            COLOR: ${{ job.status == 'success' && 'good' || (job.status == 'failure' && 'danger' || 'warning') }}
+        if: steps.changedirs.outputs.has_changes == 'true' && startsWith(github.event.head_commit.message, 'Release App')
         run: |
-            DIR_LIST=$(echo "${{ steps.changedirs.outputs.dirs }}" | tr ' ' '\n' | sed '/^$/d' | awk '{print "- " $0}' | paste -sd '\n' -)
-            STATUS=${{ job.status }}
-            COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
-        
-            curl -X POST -H 'Content-type: application/json' --data "{
-                \"attachments\": [
-                {
-                    \"color\": \"$COLOR\",
-                    \"text\": \"[${DIR_LIST}] :rocket: 배포가 완료되었습니다.\",
-                    \"blocks\": [
-                    {
-                        \"type\": \"section\",
-                        \"text\": {
-                        \"type\": \"mrkdwn\",
-                        \"text\": \":rocket: *[${{ github.repository }}]* \`${{ github.ref_name }}\` 배포 결과\n*Workflow:* \`${{ github.workflow }}\`\n*Status:* \`${STATUS}\`\n*배포 SW:*\n${DIR_LIST}\"
-                        }
-                    },
-                    {
-                        \"type\": \"section\",
-                        \"text\": {
-                            \"type\": \"mrkdwn\",
-                            \"text\": \"*Commit Message:* _${COMMIT_MESSAGE}_\"
-                        }
-                    },
-                    {
-                        \"type\": \"context\",
-                        \"elements\": [
-                        {
-                            \"type\": \"mrkdwn\",
-                            \"text\": \"Author: ${{ github.actor }} | Commit: <https://github.com/${{ github.repository }}/commit/${{ github.sha }}|${{ github.sha }}>\"
-                        }
-                        ]
-                    }
-                    ]
+          DIR_LIST=$(echo "${{ steps.changedirs.outputs.dirs }}" | tr ' ' '\n' | sed '/^$/d' | awk '{print "- " $0}' | paste -sd '\n' -)
+          STATUS="${{ job.status }}"
+          COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
+      
+          curl -X POST -H 'Content-type: application/json' --data "{
+            \"text\": \":rocket: [${{ github.repository }}] 배포 완료 - ${STATUS}\",
+            \"blocks\": [
+              {
+                \"type\": \"section\",
+                \"text\": {
+                  \"type\": \"mrkdwn\",
+                  \"text\": \":rocket: *[${{ github.repository }}]* \`${{ github.ref_name }}\` 배포 결과\n*Workflow:* \`${{ github.workflow }}\`\n*상태:* \`${STATUS}\`\n*SW 목록:*\n${DIR_LIST}\"
                 }
+              },
+              {
+                \"type\": \"section\",
+                \"text\": {
+                  \"type\": \"mrkdwn\",
+                  \"text\": \"*Commit Message:* _${COMMIT_MESSAGE}_\"
+                }
+              },
+              {
+                \"type\": \"context\",
+                \"elements\": [
+                  {
+                    \"type\": \"mrkdwn\",
+                    \"text\": \"Author: ${{ github.actor }} | Commit: <https://github.com/${{ github.repository }}/commit/${{ github.sha }}|${{ github.sha }}>\"
+                  }
                 ]
-            }" ${{ secrets.SLACK_WEBHOOK_URL }}
+              }
+            ]
+          }" ${{ secrets.SLACK_WEBHOOK_URL }}
+      
