@@ -36,7 +36,7 @@ jobs:
           fi
 
       - name: Send Slack Notification
-        if: steps.changedirs.outputs.has_changes == 'true' && startsWith(github.event.head_commit.message, 'Release App')
+        if: steps.changedirs.outputs.has_changes == 'true' && startsWith(github.event.head_commit.message, 'Release')
         run: |
           DIR_LIST=$(echo "${{ steps.changedirs.outputs.dirs }}" | tr ' ' '\n' | sed '/^$/d' | awk '{print "- " $0}' | paste -sd '\n' -)
           STATUS="${{ job.status }}"
