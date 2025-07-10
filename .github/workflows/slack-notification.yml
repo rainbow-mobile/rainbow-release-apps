@@ -24,6 +24,11 @@ jobs:
             echo "BASE_SHA is invalid, fallback to HEAD~1"
             BASE_SHA=$(git rev-parse HEAD~1)
           fi
+
+          if [ -z "$BASE_SHA" ]; then
+            echo "HEAD~1도 없어 HEAD 사용"
+            BASE_SHA=$(git rev-parse HEAD)
+          fi
       
           ALL_DIRS=$(git diff --name-only $BASE_SHA $HEAD_SHA | cut -d/ -f1 | sort -u | grep -v '^$' || true)
           DIRS=$(echo "$ALL_DIRS" | grep -v '^\.github$' || true)
