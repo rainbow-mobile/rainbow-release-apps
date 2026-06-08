@@ -1,0 +1,8 @@
+version: 0.0.2
+files:
+  - url: RB-ACS-0.0.2-win-x64.exe
+    sha512: WYG48en3N2RSeb4cZEoMQnAAR3owOIonNwU7VWG+6I6FEE5HTCpdR0EhwNDP0YYSVvrkNPmYPYL6N26WSWXgqA==
+    size: 188766268
+path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.2/RB-ACS-0.0.2-win-x64.exe
+sha512: WYG48en3N2RSeb4cZEoMQnAAR3owOIonNwU7VWG+6I6FEE5HTCpdR0EhwNDP0YYSVvrkNPmYPYL6N26WSWXgqA==
+releaseDate: '2026-06-08T06:06:20.357Z'
