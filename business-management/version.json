@@ -1,7 +1,7 @@
 {
-  "version": "1.0.13",
-  "exe_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/business-management-v1.0.13/rb-management-1.0.13-win-x64.exe",
-  "deb_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/business-management-v1.0.13/rb-management-1.0.13-linux-amd64.deb",
-  "appimage_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/business-management-v1.0.13/rb-management-1.0.13-linux-x86_64.AppImage",
-  "updated_at": "2026-06-22T07:35:15Z"
+  "version": "1.0.14",
+  "exe_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/business-management-v1.0.14/rb-management-1.0.14-win-x64.exe",
+  "deb_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/business-management-v1.0.14/rb-management-1.0.14-linux-amd64.deb",
+  "appimage_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/business-management-v1.0.14/rb-management-1.0.14-linux-x86_64.AppImage",
+  "updated_at": "2026-06-22T10:19:35Z"
 }
