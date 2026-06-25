@@ -1,8 +1,8 @@
-version: 0.0.15
+version: 0.0.16
 files:
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.15/RB-ACS-0.0.15-win-x64.exe
-    sha512: 0EoaA/Wwl4sTf/c6oPIDOWCi38vdyNtkSSsI5R2HeDpQcB262qXweUrKQtZUO4OtQntoM9Ak25mACj5cDy45hg==
-    size: 216496563
-path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.15/RB-ACS-0.0.15-win-x64.exe
-sha512: 0EoaA/Wwl4sTf/c6oPIDOWCi38vdyNtkSSsI5R2HeDpQcB262qXweUrKQtZUO4OtQntoM9Ak25mACj5cDy45hg==
-releaseDate: '2026-06-25T06:14:22.925Z'
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.16/RB-ACS-0.0.16-win-x64.exe
+    sha512: AL/pcSPyDgrk4tuS9CG940xz932oLJ43QHlgrobQHa2Gg1lT7eJG6YyKO2fOIqupRwo5Dt6m7zPAqqRPZCYlEQ==
+    size: 216490028
+path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.16/RB-ACS-0.0.16-win-x64.exe
+sha512: AL/pcSPyDgrk4tuS9CG940xz932oLJ43QHlgrobQHa2Gg1lT7eJG6YyKO2fOIqupRwo5Dt6m7zPAqqRPZCYlEQ==
+releaseDate: '2026-06-25T06:30:11.134Z'
