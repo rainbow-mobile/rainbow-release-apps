@@ -1,14 +1,14 @@
 {
-  "version": "0.0.16",
-  "exe_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.16/RB-ACS-0.0.16-win-x64.exe",
-  "dmg_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.16/RB-ACS-0.0.16-mac-arm64.dmg",
-  "zip_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.16/RB-ACS-0.0.16-mac-arm64.zip",
-  "appimage_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.16/RB-ACS-0.0.16-linux-x64.AppImage",
-  "deb_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.16/RB-ACS-0.0.16-linux-x64.deb",
+  "version": "0.0.17",
+  "exe_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.17/RB-ACS-0.0.17-win-x64.exe",
+  "dmg_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.17/RB-ACS-0.0.17-mac-arm64.dmg",
+  "zip_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.17/RB-ACS-0.0.17-mac-arm64.zip",
+  "appimage_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.17/RB-ACS-0.0.17-linux-x64.AppImage",
+  "deb_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.17/RB-ACS-0.0.17-linux-x64.deb",
   "branch": "develop",
   "feed_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/develop/acs",
   "latest_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/develop/acs/latest.yml",
   "latest_mac_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/develop/acs/latest-mac.yml",
   "latest_linux_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/develop/acs/latest-linux.yml",
-  "updated_at": "2026-06-25T06:38:57Z"
+  "updated_at": "2026-06-26T06:31:10Z"
 }
