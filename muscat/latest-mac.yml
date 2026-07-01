@@ -1,0 +1,11 @@
+version: 1.0.1
+files:
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.1/muscat-1.0.1-mac-arm64.zip
+    sha512: Iz4p9rbCB/KsTqNl8Hpk1Z9ZqVjEb5q2GOqbCopS7RY35el+GHRffC3u6ol2EuNdMDGl8kfFGWI7xzVOuO8bjw==
+    size: 103854930
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.1/muscat-1.0.1-mac-arm64.dmg
+    sha512: RoI11hyv52YIlx0TN7ECJyGHygsPYIiz4s+F56GdYj8WKNVQFXoAqSjeDK7aSE4r33+p7MNDR+ieiBuGC36rFA==
+    size: 103878753
+path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.1/muscat-1.0.1-mac-arm64.zip
+sha512: Iz4p9rbCB/KsTqNl8Hpk1Z9ZqVjEb5q2GOqbCopS7RY35el+GHRffC3u6ol2EuNdMDGl8kfFGWI7xzVOuO8bjw==
+releaseDate: '2026-07-01T07:25:56.485Z'
