@@ -1,0 +1,14 @@
+{
+  "version": "0.0.2",
+  "exe_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-v0.0.2/RB-ACS-0.0.2-win-x64.exe",
+  "dmg_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-v0.0.2/RB-ACS-0.0.2-mac-arm64.dmg",
+  "zip_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-v0.0.2/RB-ACS-0.0.2-mac-arm64.zip",
+  "appimage_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-v0.0.2/RB-ACS-0.0.2-linux-x64.AppImage",
+  "deb_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-v0.0.2/RB-ACS-0.0.2-linux-x64.deb",
+  "branch": "main",
+  "feed_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/main/acs",
+  "latest_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/main/acs/latest.yml",
+  "latest_mac_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/main/acs/latest-mac.yml",
+  "latest_linux_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/main/acs/latest-linux.yml",
+  "updated_at": "2026-07-02T02:14:46Z"
+}
