@@ -1,11 +1,11 @@
-version: 0.0.23
+version: 0.0.24
 files:
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.23/RB-ACS-0.0.23-mac-arm64.zip
-    sha512: Z1IYWRcc3EItuowDZSX4WtscyNNrernj7OmlofepTrKimTa6yimtkaCjMeYyR0/MS9hllmD6WiyOktiHSWjq8A==
-    size: 269707644
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.23/RB-ACS-0.0.23-mac-arm64.dmg
-    sha512: g3ze3qf1qnU4vMnAXqo7oZcpeX9/QMlMlJnoy6DkTLwCOSF03KbznjwnHRt9IsqI//s1yQE2nx8sIFfK+kF+lw==
-    size: 269823817
-path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.23/RB-ACS-0.0.23-mac-arm64.zip
-sha512: Z1IYWRcc3EItuowDZSX4WtscyNNrernj7OmlofepTrKimTa6yimtkaCjMeYyR0/MS9hllmD6WiyOktiHSWjq8A==
-releaseDate: '2026-06-29T12:16:53.136Z'
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.24/RB-ACS-0.0.24-mac-arm64.zip
+    sha512: qkGNDdccynsbdqs82vBpJAUwC7yspkd0tm0SLNS4uYhnrooYyd4/P6om8QVoIJ7EOQxacP9lzf1QyAGo2nV/FQ==
+    size: 270908036
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.24/RB-ACS-0.0.24-mac-arm64.dmg
+    sha512: Lcaz/OpujQEm1P3bcIkUJpoKbGsV+GDJGFLYLD7v1rvMre7xWccAhUshyhPyXnQ9oMP6FW9J39nymRZq8KVYHg==
+    size: 270998139
+path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.24/RB-ACS-0.0.24-mac-arm64.zip
+sha512: qkGNDdccynsbdqs82vBpJAUwC7yspkd0tm0SLNS4uYhnrooYyd4/P6om8QVoIJ7EOQxacP9lzf1QyAGo2nV/FQ==
+releaseDate: '2026-07-07T01:10:56.851Z'
