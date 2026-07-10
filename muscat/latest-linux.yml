@@ -1,12 +1,12 @@
-version: 1.0.7
+version: 1.0.8
 files:
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.7/muscat-1.0.7-linux-x86_64.AppImage
-    sha512: XKaGZDPL/hHLNX9C37UkkNvg/py8TtW0+g6eGOjMWE2Sq1hQJeCv0vcVANgw/ifV1xFM/uZHRDpAIFs8xX9Gqg==
-    size: 116345147
-    blockMapSize: 121167
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.7/muscat-1.0.7-linux-amd64.deb
-    sha512: pAsWLeoWFOE5G+9XpMXUYbUW/ncybLTNPftfVcFpf/g7AQWZ41IHAzmmjAhqvhwRcvFehsDx49/MD6RBjebLKg==
-    size: 92940480
-path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.7/muscat-1.0.7-linux-x86_64.AppImage
-sha512: XKaGZDPL/hHLNX9C37UkkNvg/py8TtW0+g6eGOjMWE2Sq1hQJeCv0vcVANgw/ifV1xFM/uZHRDpAIFs8xX9Gqg==
-releaseDate: '2026-07-07T06:15:24.652Z'
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.8/muscat-1.0.8-linux-x86_64.AppImage
+    sha512: MZVeUp4Jz3VLh0Sj2QiN4obF6vATSUHjQjZ7LfoE0Tt7g+M1fJHPD8hkEnYZqDLj7kT7SKI3V1yE0rzqoYWzJA==
+    size: 116344997
+    blockMapSize: 121017
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.8/muscat-1.0.8-linux-amd64.deb
+    sha512: MFL061/XwKlE4B5RMGe+tzJsMBBvNlmtCz/8rAO7ofQ0pkTuTEhV7m+pN2pYZMTJdA/JoQR0VSX5Qbi7QWwqaA==
+    size: 92942816
+path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.8/muscat-1.0.8-linux-x86_64.AppImage
+sha512: MZVeUp4Jz3VLh0Sj2QiN4obF6vATSUHjQjZ7LfoE0Tt7g+M1fJHPD8hkEnYZqDLj7kT7SKI3V1yE0rzqoYWzJA==
+releaseDate: '2026-07-10T02:57:57.347Z'
