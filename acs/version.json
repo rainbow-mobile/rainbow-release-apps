@@ -1,17 +1,17 @@
 {
-  "version": "0.0.31",
-  "exe_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.31/ACS-0.0.31-win-x64.exe",
-  "dmg_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.31/ACS-0.0.31-mac-arm64.dmg",
-  "zip_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.31/ACS-0.0.31-mac-arm64.zip",
-  "appimage_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.31/ACS-0.0.31-linux-x64.AppImage",
-  "deb_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.31/ACS-0.0.31-linux-x64.deb",
-  "apk_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.31/acs-0.0.31-android.apk",
-  "aab_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.31/acs-0.0.31-android.aab",
+  "version": "0.0.32",
+  "exe_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.32/ACS-0.0.32-win-x64.exe",
+  "dmg_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.32/ACS-0.0.32-mac-arm64.dmg",
+  "zip_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.32/ACS-0.0.32-mac-arm64.zip",
+  "appimage_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.32/ACS-0.0.32-linux-x64.AppImage",
+  "deb_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.32/ACS-0.0.32-linux-x64.deb",
+  "apk_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.32/acs-0.0.32-android.apk",
+  "aab_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.32/acs-0.0.32-android.aab",
   "branch": "develop",
-  "android_version_code": 3,
+  "android_version_code": 4,
   "feed_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/develop/acs",
   "latest_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/develop/acs/latest.yml",
   "latest_mac_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/develop/acs/latest-mac.yml",
   "latest_linux_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/develop/acs/latest-linux.yml",
-  "updated_at": "2026-07-15T06:32:00Z"
+  "updated_at": "2026-07-16T07:36:24Z"
 }
