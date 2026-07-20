@@ -1,17 +1,17 @@
 {
-  "version": "1.0.3",
-  "exe_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.3/muscat-1.0.3-win-x64.exe",
-  "dmg_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.3/muscat-1.0.3-mac-arm64.dmg",
-  "zip_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.3/muscat-1.0.3-mac-arm64.zip",
-  "appimage_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.3/muscat-1.0.3-linux-x86_64.AppImage",
-  "deb_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.3/muscat-1.0.3-linux-amd64.deb",
-  "apk_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.3/muscat-1.0.3-android.apk",
-  "aab_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.3/muscat-1.0.3-android.aab",
+  "version": "1.0.4",
+  "exe_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.4/muscat-1.0.4-win-x64.exe",
+  "dmg_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.4/muscat-1.0.4-mac-arm64.dmg",
+  "zip_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.4/muscat-1.0.4-mac-arm64.zip",
+  "appimage_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.4/muscat-1.0.4-linux-x86_64.AppImage",
+  "deb_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.4/muscat-1.0.4-linux-amd64.deb",
+  "apk_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.4/muscat-1.0.4-android.apk",
+  "aab_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.4/muscat-1.0.4-android.aab",
   "branch": "main",
-  "android_version_code": 2,
+  "android_version_code": 3,
   "feed_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/main/muscat",
   "latest_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/main/muscat/latest.yml",
   "latest_mac_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/main/muscat/latest-mac.yml",
   "latest_linux_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/main/muscat/latest-linux.yml",
-  "updated_at": "2026-07-20T06:16:38Z"
+  "updated_at": "2026-07-20T08:16:21Z"
 }
