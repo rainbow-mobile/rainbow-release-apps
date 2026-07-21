@@ -1,8 +1,8 @@
-version: 1.0.6
+version: 1.0.7
 files:
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.6/muscat-1.0.6-win-x64.exe
-    sha512: LERlUTp1AdAUyu9WOwBxSb0HTUa82ejEO9dH1Neq9vQ2VNBGmtTukQVKm4OIjX0FvmiDIlf1QrtLB9hj5Zex4Q==
-    size: 85679914
-path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.6/muscat-1.0.6-win-x64.exe
-sha512: LERlUTp1AdAUyu9WOwBxSb0HTUa82ejEO9dH1Neq9vQ2VNBGmtTukQVKm4OIjX0FvmiDIlf1QrtLB9hj5Zex4Q==
-releaseDate: '2026-07-21T08:21:39.989Z'
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.7/muscat-1.0.7-win-x64.exe
+    sha512: RwUjtoziavkdQYkfs8odJWeqzi7jRhKKnAdL5hukr8p0Re7k4wBrGGeyDPVwo8qhkA+RoWV4Z8uEZKRGBRkbZw==
+    size: 85679921
+path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-v1.0.7/muscat-1.0.7-win-x64.exe
+sha512: RwUjtoziavkdQYkfs8odJWeqzi7jRhKKnAdL5hukr8p0Re7k4wBrGGeyDPVwo8qhkA+RoWV4Z8uEZKRGBRkbZw==
+releaseDate: '2026-07-21T08:56:00.685Z'
