@@ -1,1 +1,27 @@
-{"new_version": "20260728124021", "branch": "develop"}
+{
+  "services": {
+    "assets": {
+      "version": "assets-20260721103034",
+      "hotfix": false
+    },
+    "common": {
+      "version": "common-20260624152136",
+      "hotfix": false
+    },
+    "nexus": {
+      "version": "nexus-20260728143239",
+      "hotfix": false
+    },
+    "S100": {
+      "version": "S100-20260703110512",
+      "hotfix": false
+    },
+    "shell": {
+      "version": "20260728143239",
+      "hotfix": false
+    }
+  },
+  "total": "20260728143239",
+  "new_version": "20260728143239",
+  "branch": "develop"
+}
