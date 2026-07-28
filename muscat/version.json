@@ -1,1 +1,31 @@
-{"new_version": "20260728090443", "branch": "develop"}
+{
+  "services": {
+    "amr": {
+      "version": "amr-20260723170033",
+      "hotfix": false
+    },
+    "common": {
+      "version": "common-20260728102013",
+      "hotfix": false
+    },
+    "host": {
+      "version": "host-20260724101040",
+      "hotfix": false
+    },
+    "log": {
+      "version": "log-20260724101040",
+      "hotfix": false
+    },
+    "manipulate": {
+      "version": "manipulate-20260727140542",
+      "hotfix": false
+    },
+    "rby1": {
+      "version": "rby1-20260708162628",
+      "hotfix": false
+    }
+  },
+  "total": "20260728102013",
+  "new_version": "20260728102013",
+  "branch": "develop"
+}
