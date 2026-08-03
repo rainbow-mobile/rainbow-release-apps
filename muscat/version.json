@@ -17,7 +17,7 @@
       "hotfix": false
     },
     "manipulate": {
-      "version": "manipulate-20260729162633",
+      "version": "manipulate-20260803152752",
       "hotfix": false
     },
     "rby1": {
@@ -25,7 +25,7 @@
       "hotfix": false
     }
   },
-  "total": "20260802161958",
-  "new_version": "20260802161958",
+  "total": "20260803152752",
+  "new_version": "20260803152752",
   "branch": "develop"
 }
