@@ -1,12 +1,12 @@
-version: 0.0.41
+version: 0.0.42
 files:
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.41/ACS-0.0.41-linux-x64.AppImage
-    sha512: H5y3t/HAy0QiRmMJfxuk+SDiug0RZS1BzMkAzpVyV2BF2FIZoUcPzaeePeCwtPCj06+QlN3/Hlw66ZHqVkKv5g==
-    size: 263464148
-    blockMapSize: 277208
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.41/ACS-0.0.41-linux-x64.deb
-    sha512: aRDvXuJMD+GHmRVGBlL4Jb+4AHukrfUcSnj1pyOjaU8hmnibTIb8oDB0pS6nMNA4tKv2mTERdY+9cCoxIx4nZQ==
-    size: 218819700
-path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.41/ACS-0.0.41-linux-x64.AppImage
-sha512: H5y3t/HAy0QiRmMJfxuk+SDiug0RZS1BzMkAzpVyV2BF2FIZoUcPzaeePeCwtPCj06+QlN3/Hlw66ZHqVkKv5g==
-releaseDate: '2026-08-04T05:48:16.159Z'
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.42/ACS-0.0.42-linux-x64.AppImage
+    sha512: dcT+KFCduA7SlamQQ3lJiSxliM8ewngWViqBkutUmUuHgIzFdYb22jhNu9EV5M64Hr/Uvg1QVqWnNJZCdDMjJQ==
+    size: 263464344
+    blockMapSize: 277404
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.42/ACS-0.0.42-linux-x64.deb
+    sha512: AArr4R4TGrjXvU8CIXaXCtwFjqaCblfzF7+hL6PEKbiXAedkeZJAiVVvNUBO11Ox3aGpFrKvUpwZg9dT/3t2fA==
+    size: 218820484
+path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/acs-develop-v0.0.42/ACS-0.0.42-linux-x64.AppImage
+sha512: dcT+KFCduA7SlamQQ3lJiSxliM8ewngWViqBkutUmUuHgIzFdYb22jhNu9EV5M64Hr/Uvg1QVqWnNJZCdDMjJQ==
+releaseDate: '2026-08-04T08:49:44.165Z'
