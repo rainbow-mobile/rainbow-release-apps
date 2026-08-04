@@ -1,17 +1,31 @@
 {
-  "version": "1.0.10",
-  "exe_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.10/muscat-1.0.10-win-x64.exe",
-  "dmg_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.10/muscat-1.0.10-mac-arm64.dmg",
-  "zip_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.10/muscat-1.0.10-mac-arm64.zip",
-  "appimage_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.10/muscat-1.0.10-linux-x86_64.AppImage",
-  "deb_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.10/muscat-1.0.10-linux-amd64.deb",
-  "apk_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.10/muscat-1.0.10-android.apk",
-  "aab_url": "https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-develop-v1.0.10/muscat-1.0.10-android.aab",
-  "branch": "develop",
-  "android_version_code": 1,
-  "feed_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/develop/muscat",
-  "latest_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/develop/muscat/latest.yml",
-  "latest_mac_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/develop/muscat/latest-mac.yml",
-  "latest_linux_yml_url": "https://raw.githubusercontent.com/rainbow-mobile/rainbow-release-apps/develop/muscat/latest-linux.yml",
-  "updated_at": "2026-08-04T08:12:22Z"
+  "services": {
+    "amr": {
+      "version": "amr-20260802161958",
+      "hotfix": false
+    },
+    "common": {
+      "version": "common-20260804173220",
+      "hotfix": false
+    },
+    "host": {
+      "version": "host-20260728144931",
+      "hotfix": false
+    },
+    "log": {
+      "version": "log-20260728144931",
+      "hotfix": false
+    },
+    "manipulate": {
+      "version": "manipulate-20260803183326",
+      "hotfix": false
+    },
+    "rby1": {
+      "version": "rby1-20260708162628",
+      "hotfix": false
+    }
+  },
+  "total": "20260804173220",
+  "new_version": "20260804173220",
+  "branch": "develop"
 }
