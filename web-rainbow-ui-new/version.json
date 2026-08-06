@@ -1,0 +1,11 @@
+{
+  "services": {
+    "shell": {
+      "version": "program-vision-photoneo",
+      "hotfix": false
+    }
+  },
+  "total": "program-vision-photoneo",
+  "new_version": "program-vision-photoneo",
+  "branch": "feat"
+}
