@@ -1,0 +1,23 @@
+{
+  "services": {
+    "common": {
+      "version": "common-20260806133331",
+      "hotfix": false
+    },
+    "host": {
+      "version": "host-20260806133331",
+      "hotfix": false
+    },
+    "log": {
+      "version": "log-20260806133331",
+      "hotfix": false
+    },
+    "manipulate": {
+      "version": "manipulate-20260806133331",
+      "hotfix": false
+    }
+  },
+  "total": "20260806133331",
+  "new_version": "20260806133331",
+  "branch": "feat-vision-photoneo"
+}
