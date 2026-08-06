@@ -1,5 +1,13 @@
 {
   "services": {
+    "assets": {
+      "version": "program-vision-photoneo",
+      "hotfix": false
+    },
+    "nexus": {
+      "version": "program-vision-photoneo",
+      "hotfix": false
+    },
     "shell": {
       "version": "program-vision-photoneo",
       "hotfix": false
