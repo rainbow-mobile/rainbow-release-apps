@@ -17,11 +17,11 @@
       "hotfix": false
     },
     "shell": {
-      "version": "20260810101129",
+      "version": "20260810110810",
       "hotfix": false
     }
   },
-  "total": "20260810101129",
-  "new_version": "20260810101129",
+  "total": "20260810110810",
+  "new_version": "20260810110810",
   "branch": "develop"
 }
