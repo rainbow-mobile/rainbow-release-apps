@@ -5,7 +5,7 @@
       "hotfix": false
     },
     "common": {
-      "version": "common-20260818144413",
+      "version": "common-20260819125033",
       "hotfix": false
     },
     "host": {
@@ -17,7 +17,7 @@
       "hotfix": false
     },
     "manipulate": {
-      "version": "manipulate-20260814174130",
+      "version": "manipulate-20260819125033",
       "hotfix": false
     },
     "rby1": {
@@ -25,7 +25,7 @@
       "hotfix": false
     }
   },
-  "total": "20260818144413",
-  "new_version": "20260818144413",
+  "total": "20260819125033",
+  "new_version": "20260819125033",
   "branch": "develop"
 }
