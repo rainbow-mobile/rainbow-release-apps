@@ -1,7 +1,7 @@
 {
   "services": {
     "assets": {
-      "version": "assets-20260811155137",
+      "version": "assets-20260820145536",
       "hotfix": false
     },
     "common": {
@@ -17,11 +17,11 @@
       "hotfix": false
     },
     "shell": {
-      "version": "20260820142715",
+      "version": "20260820145536",
       "hotfix": false
     }
   },
-  "total": "20260820142715",
-  "new_version": "20260820142715",
+  "total": "20260820145536",
+  "new_version": "20260820145536",
   "branch": "develop"
 }
