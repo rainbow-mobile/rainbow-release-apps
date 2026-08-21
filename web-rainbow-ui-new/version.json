@@ -9,7 +9,7 @@
       "hotfix": false
     },
     "nexus": {
-      "version": "nexus-20260821150556",
+      "version": "nexus-20260821155139",
       "hotfix": false
     },
     "S100": {
@@ -17,11 +17,11 @@
       "hotfix": false
     },
     "shell": {
-      "version": "20260821150556",
+      "version": "20260821155139",
       "hotfix": false
     }
   },
-  "total": "20260821150556",
-  "new_version": "20260821150556",
+  "total": "20260821155139",
+  "new_version": "20260821155139",
   "branch": "develop"
 }
