@@ -17,11 +17,11 @@
       "hotfix": false
     },
     "shell": {
-      "version": "1.0.6",
+      "version": "1.0.7",
       "hotfix": false
     }
   },
-  "total": "1.0.6",
-  "new_version": "1.0.6",
+  "total": "1.0.7",
+  "new_version": "1.0.7",
   "branch": "main"
 }
