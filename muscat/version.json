@@ -1,11 +1,11 @@
 {
   "services": {
     "amr": {
-      "version": "amr-20260827161619",
+      "version": "amr-20260828162020",
       "hotfix": false
     },
     "common": {
-      "version": "common-20260827161619",
+      "version": "common-20260828162020",
       "hotfix": false
     },
     "host": {
@@ -17,7 +17,7 @@
       "hotfix": false
     }
   },
-  "total": "20260827161619",
-  "new_version": "20260827161619",
+  "total": "20260828162020",
+  "new_version": "20260828162020",
   "branch": "test_amr_cpp"
 }
