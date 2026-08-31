@@ -5,15 +5,15 @@
       "hotfix": false
     },
     "common": {
-      "version": "common-20260826105422",
+      "version": "common-20260831103058",
       "hotfix": false
     },
     "host": {
-      "version": "host-20260826105422",
+      "version": "host-20260831103058",
       "hotfix": false
     },
     "log": {
-      "version": "log-20260728144931",
+      "version": "log-20260831103058",
       "hotfix": false
     },
     "manipulate": {
@@ -25,7 +25,7 @@
       "hotfix": false
     }
   },
-  "total": "20260826165637",
-  "new_version": "20260826165637",
+  "total": "20260831103058",
+  "new_version": "20260831103058",
   "branch": "develop"
 }
