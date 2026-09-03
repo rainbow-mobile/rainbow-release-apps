@@ -5,7 +5,7 @@
       "hotfix": false
     },
     "common": {
-      "version": "common-20260902171934",
+      "version": "common-20260903191906",
       "hotfix": false
     },
     "host": {
@@ -25,7 +25,7 @@
       "hotfix": false
     }
   },
-  "total": "20260903144449",
-  "new_version": "20260903144449",
+  "total": "20260903191906",
+  "new_version": "20260903191906",
   "branch": "develop"
 }
