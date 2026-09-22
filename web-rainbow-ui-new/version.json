@@ -1,7 +1,7 @@
 {
   "services": {
     "assets": {
-      "version": "assets-20260902095524",
+      "version": "assets-20260922093526",
       "hotfix": false
     },
     "common": {
@@ -9,19 +9,19 @@
       "hotfix": false
     },
     "nexus": {
-      "version": "nexus-20260918115115",
+      "version": "nexus-20260918161728",
       "hotfix": false
     },
     "S100": {
-      "version": "S100-20260703110512",
+      "version": "S100-20260922093526",
       "hotfix": false
     },
     "shell": {
-      "version": "20260918161728",
+      "version": "20260922093526",
       "hotfix": false
     }
   },
-  "total": "20260918161728",
-  "new_version": "20260918161728",
+  "total": "20260922093526",
+  "new_version": "20260922093526",
   "branch": "develop"
 }
