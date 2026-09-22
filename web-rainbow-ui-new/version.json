@@ -1,0 +1,15 @@
+{
+  "services": {
+    "nexus": {
+      "version": "nexus-20260922192514",
+      "hotfix": false
+    },
+    "shell": {
+      "version": "20260922192514",
+      "hotfix": false
+    }
+  },
+  "total": "20260922192514",
+  "new_version": "20260922192514",
+  "branch": "fix-safety-table"
+}
