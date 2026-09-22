@@ -1,11 +1,11 @@
 {
   "services": {
     "amr": {
-      "version": "amr-20260922133934",
+      "version": "amr-20260922143227",
       "hotfix": false
     },
     "common": {
-      "version": "common-20260922133934",
+      "version": "common-20260922143227",
       "hotfix": false
     },
     "host": {
@@ -25,7 +25,7 @@
       "hotfix": false
     }
   },
-  "total": "20260922133934",
-  "new_version": "20260922133934",
+  "total": "20260922143227",
+  "new_version": "20260922143227",
   "branch": "develop"
 }
