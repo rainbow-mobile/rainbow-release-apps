@@ -1,0 +1,11 @@
+{
+  "services": {
+    "rby1": {
+      "version": "rby1-20260929142739",
+      "hotfix": false
+    }
+  },
+  "total": "20260929142739",
+  "new_version": "20260929142739",
+  "branch": "feature-rby1-cpp-sdk"
+}
