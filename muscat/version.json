@@ -1,0 +1,11 @@
+{
+  "services": {
+    "rby1": {
+      "version": "rby1-cpp-sdk",
+      "hotfix": false
+    }
+  },
+  "total": "rby1-cpp-sdk",
+  "new_version": "rby1-cpp-sdk",
+  "branch": "feature"
+}
