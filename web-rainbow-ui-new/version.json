@@ -1,15 +1,19 @@
 {
   "services": {
+    "assets": {
+      "version": "assets-20261002112342",
+      "hotfix": false
+    },
     "nexus": {
-      "version": "nexus-20261002094517",
+      "version": "nexus-20261002113556",
       "hotfix": false
     },
     "shell": {
-      "version": "20261002112342",
+      "version": "20261002113556",
       "hotfix": false
     }
   },
-  "total": "20261002112342",
-  "new_version": "20261002112342",
+  "total": "20261002113556",
+  "new_version": "20261002113556",
   "branch": "rby1-program"
 }
