@@ -21,11 +21,11 @@
       "hotfix": false
     },
     "rby1": {
-      "version": "rby1-20260708162628",
+      "version": "rby1-20261002145400",
       "hotfix": false
     }
   },
-  "total": "20261001172712",
-  "new_version": "20261001172712",
+  "total": "20261002145400",
+  "new_version": "20261002145400",
   "branch": "develop"
 }
