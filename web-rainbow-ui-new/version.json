@@ -1,0 +1,15 @@
+{
+  "services": {
+    "nexus": {
+      "version": "nexus-20261002094517",
+      "hotfix": false
+    },
+    "shell": {
+      "version": "20261002094517",
+      "hotfix": false
+    }
+  },
+  "total": "20261002094517",
+  "new_version": "20261002094517",
+  "branch": "rby1-program"
+}
