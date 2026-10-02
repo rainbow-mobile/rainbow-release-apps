@@ -1,0 +1,23 @@
+{
+  "services": {
+    "common": {
+      "version": "common-20261002094129",
+      "hotfix": false
+    },
+    "host": {
+      "version": "host-20261002094129",
+      "hotfix": false
+    },
+    "log": {
+      "version": "log-20261002094129",
+      "hotfix": false
+    },
+    "rby1": {
+      "version": "rby1-20261002094129",
+      "hotfix": false
+    }
+  },
+  "total": "20261002094129",
+  "new_version": "20261002094129",
+  "branch": "rby1-test"
+}
