@@ -9,7 +9,7 @@
       "hotfix": false
     },
     "nexus": {
-      "version": "1.0.23",
+      "version": "1.0.24",
       "hotfix": false
     },
     "S100": {
@@ -17,11 +17,11 @@
       "hotfix": false
     },
     "shell": {
-      "version": "1.0.12",
+      "version": "1.0.13",
       "hotfix": false
     }
   },
-  "total": "1.0.12",
-  "new_version": "1.0.12",
+  "total": "1.0.13",
+  "new_version": "1.0.13",
   "branch": "main"
 }
