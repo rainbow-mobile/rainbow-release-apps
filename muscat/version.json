@@ -1,7 +1,7 @@
 {
   "services": {
     "amr": {
-      "version": "0.1.10",
+      "version": "0.1.11",
       "hotfix": false
     },
     "common": {
@@ -21,7 +21,7 @@
       "hotfix": false
     }
   },
-  "total": "0.1.4",
-  "new_version": "0.1.4",
+  "total": "0.1.5",
+  "new_version": "0.1.5",
   "branch": "main"
 }
