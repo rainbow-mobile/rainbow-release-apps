@@ -1,27 +1,27 @@
 {
   "services": {
     "amr": {
-      "version": "0.1.11",
+      "version": "0.1.12",
       "hotfix": false
     },
     "common": {
-      "version": "0.2.1",
+      "version": "0.2.2",
       "hotfix": false
     },
     "host": {
-      "version": "0.1.4",
+      "version": "0.1.5",
       "hotfix": false
     },
     "log": {
-      "version": "0.1.1",
+      "version": "0.1.2",
       "hotfix": false
     },
     "manipulate": {
-      "version": "0.0.78",
+      "version": "0.0.79",
       "hotfix": false
     }
   },
-  "total": "0.1.5",
-  "new_version": "0.1.5",
+  "total": "0.1.6",
+  "new_version": "0.1.6",
   "branch": "main"
 }
