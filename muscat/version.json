@@ -1,7 +1,7 @@
 {
   "services": {
     "amr": {
-      "version": "amr-20261012151057",
+      "version": "amr-20261012160515",
       "hotfix": false
     },
     "common": {
@@ -25,7 +25,7 @@
       "hotfix": false
     }
   },
-  "total": "20261012151057",
-  "new_version": "20261012151057",
+  "total": "20261012160515",
+  "new_version": "20261012160515",
   "branch": "develop"
 }
