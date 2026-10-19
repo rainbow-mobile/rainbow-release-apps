@@ -1,0 +1,15 @@
+{
+  "services": {
+    "amr": {
+      "version": "amr-20261019144601",
+      "hotfix": false
+    },
+    "host": {
+      "version": "host-20261019144601",
+      "hotfix": false
+    }
+  },
+  "total": "20261019144601",
+  "new_version": "20261019144601",
+  "branch": "feat-amr-sdk-main-port"
+}
