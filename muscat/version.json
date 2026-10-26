@@ -1,27 +1,39 @@
 {
   "services": {
-    "amr": {
+    "accessory": {
       "version": "0.10.1",
+      "hotfix": false
+    },
+    "amr": {
+      "version": "0.10.2",
       "hotfix": false
     },
     "common": {
-      "version": "0.10.1",
+      "version": "0.10.2",
       "hotfix": false
     },
     "host": {
-      "version": "0.10.1",
+      "version": "0.10.2",
       "hotfix": false
     },
     "log": {
-      "version": "0.1.2",
+      "version": "0.10.1",
       "hotfix": false
     },
     "manipulate": {
-      "version": "0.0.79",
+      "version": "0.10.1",
+      "hotfix": false
+    },
+    "rby1": {
+      "version": "0.10.1",
+      "hotfix": false
+    },
+    "vision": {
+      "version": "0.10.1",
       "hotfix": false
     }
   },
-  "total": "0.10.2",
-  "new_version": "0.10.2",
+  "total": "0.10.3",
+  "new_version": "0.10.3",
   "branch": "main"
 }
