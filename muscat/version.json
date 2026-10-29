@@ -5,11 +5,11 @@
       "hotfix": false
     },
     "amr": {
-      "version": "0.10.3",
+      "version": "0.10.4",
       "hotfix": false
     },
     "common": {
-      "version": "0.10.3",
+      "version": "0.10.4",
       "hotfix": false
     },
     "host": {
@@ -33,7 +33,7 @@
       "hotfix": false
     }
   },
-  "total": "0.10.3",
-  "new_version": "0.10.3",
+  "total": "0.10.4",
+  "new_version": "0.10.4",
   "branch": "main"
 }
