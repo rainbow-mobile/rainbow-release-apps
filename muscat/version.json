@@ -1,0 +1,15 @@
+{
+  "services": {
+    "amr": {
+      "version": "amr-20261105190352",
+      "hotfix": false
+    },
+    "common": {
+      "version": "common-20261105190352",
+      "hotfix": false
+    }
+  },
+  "total": "20261105190352",
+  "new_version": "20261105190352",
+  "branch": "feat-add-dd-tsrcv-robot-model"
+}
