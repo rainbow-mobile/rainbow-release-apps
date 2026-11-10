@@ -5,7 +5,7 @@
       "hotfix": false
     },
     "amr": {
-      "version": "0.11.1",
+      "version": "0.11.2",
       "hotfix": false
     },
     "common": {
@@ -33,7 +33,7 @@
       "hotfix": false
     }
   },
-  "total": "0.11.3",
-  "new_version": "0.11.3",
+  "total": "0.11.4",
+  "new_version": "0.11.4",
   "branch": "main"
 }
