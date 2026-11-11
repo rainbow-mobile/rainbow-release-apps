@@ -1,23 +1,27 @@
 {
   "services": {
+    "accessory": {
+      "version": "accessory-20261110184230",
+      "hotfix": false
+    },
     "amr": {
-      "version": "amr-20261105183441",
+      "version": "amr-20261111101651",
       "hotfix": false
     },
     "common": {
-      "version": "common-20261110092938",
+      "version": "common-20261111101651",
       "hotfix": false
     },
     "host": {
-      "version": "host-20261102124935",
+      "version": "host-20261111101651",
       "hotfix": false
     },
     "log": {
-      "version": "log-20261014152139",
+      "version": "log-20261111101651",
       "hotfix": false
     },
     "manipulate": {
-      "version": "manipulate-20261110092938",
+      "version": "manipulate-20261111101651",
       "hotfix": false
     },
     "rby1": {
@@ -25,7 +29,7 @@
       "hotfix": false
     }
   },
-  "total": "20261110092938",
-  "new_version": "20261110092938",
+  "total": "20261111101651",
+  "new_version": "20261111101651",
   "branch": "develop"
 }
