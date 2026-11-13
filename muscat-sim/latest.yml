@@ -1,8 +1,14 @@
-version: 0.11.1
+version: 0.11.2
 files:
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.1/muscat-sim-0.11.1-win-x64.exe
-    sha512: sPDlNJpv89zRSB10X4nZ/pSTqN3lXq1RjqBlXcjxT8AdhVskRqhYWDiBOPzSAStoUteqpfBizEzSL94j34qnQg==
-    size: 79422719
-path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.1/muscat-sim-0.11.1-win-x64.exe
-sha512: sPDlNJpv89zRSB10X4nZ/pSTqN3lXq1RjqBlXcjxT8AdhVskRqhYWDiBOPzSAStoUteqpfBizEzSL94j34qnQg==
-releaseDate: '2026-11-13T14:37:12.883Z'
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.2/muscat-sim-0.11.2-win.exe
+    sha512: skcATMtxE7oKYN9fZhcoH6yea6ok6Zksg28cbSPoW3JysdY+MQ8J8dfgsSfCVq9l3vp3aaVFB/3A4iA5VZbXiw==
+    size: 229050845
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.2/muscat-sim-0.11.2-win-x64.exe
+    sha512: DbWGKHWher+p/vL4ahO+Caz9SAiqYYtIVyALZDtUN4NL5JDeLWAlto3De9R1yGntownzwkg1Sthr6KTz3jj/2Q==
+    size: 116128027
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.2/muscat-sim-0.11.2-win-arm64.exe
+    sha512: dCgw21RT/ZGVUV5Rw6NoHfik/Rp9lUcFobI8Dxm9x8sR+iyDfo53ciY4nw3dJekL25zUTsMiZiCh1ScSVL+x4Q==
+    size: 113461830
+path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.2/muscat-sim-0.11.2-win.exe
+sha512: skcATMtxE7oKYN9fZhcoH6yea6ok6Zksg28cbSPoW3JysdY+MQ8J8dfgsSfCVq9l3vp3aaVFB/3A4iA5VZbXiw==
+releaseDate: '2026-11-13T15:26:30.442Z'
