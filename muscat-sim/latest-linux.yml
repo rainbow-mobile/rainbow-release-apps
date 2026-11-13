@@ -1,12 +1,12 @@
-version: 0.11.2
+version: 0.11.3
 files:
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.2/muscat-sim-0.11.2-linux-x86_64.AppImage
-    sha512: /sXyaWdGLz29lfERtT1bGL5D/MgY26Py+816fU3VyuKT0VaKI2M5SILoX82JYCA/7Lf8tRwAZgQ5rKDn4F9wPA==
-    size: 145944889
-    blockMapSize: 151885
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.2/muscat-sim-0.11.2-linux-amd64.deb
-    sha512: igGNGR28Z4gtIKYyeU76P7rZMdxkn1Xzvtc7CGkwOXV8ayokYq0bkbDfiYJHzXyI+kwJZNvS0x73Tid4V1Vksw==
-    size: 122576188
-path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.2/muscat-sim-0.11.2-linux-x86_64.AppImage
-sha512: /sXyaWdGLz29lfERtT1bGL5D/MgY26Py+816fU3VyuKT0VaKI2M5SILoX82JYCA/7Lf8tRwAZgQ5rKDn4F9wPA==
-releaseDate: '2026-11-13T15:34:39.645Z'
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.3/muscat-sim-0.11.3-linux-x86_64.AppImage
+    sha512: XjfTxoC/Dv/Jc7pLQJ3NGEYaaJrrs9ERashRS6lqXr9d4/oE0pb9M75gF/q6z3WWqB6LGdUVkttT0yRfXCCGZg==
+    size: 145944908
+    blockMapSize: 151904
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.3/muscat-sim-0.11.3-linux-amd64.deb
+    sha512: ScCZxlzFHrA4HlRF3ah5rcgdd8sEfDfXW9O99zzHcaHttDVDXgXp5ft6IzbjkXVb68442maHmQ/6FSpBbZxOGw==
+    size: 122579192
+path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.3/muscat-sim-0.11.3-linux-x86_64.AppImage
+sha512: XjfTxoC/Dv/Jc7pLQJ3NGEYaaJrrs9ERashRS6lqXr9d4/oE0pb9M75gF/q6z3WWqB6LGdUVkttT0yRfXCCGZg==
+releaseDate: '2026-11-13T17:29:39.021Z'
