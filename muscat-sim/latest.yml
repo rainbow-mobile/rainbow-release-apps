@@ -1,14 +1,14 @@
-version: 0.11.6
+version: 0.11.7
 files:
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.6/muscat-sim-0.11.6-win.exe
-    sha512: I7aaoO4prj8WHFrO7kkAeSnKW77uJJFDb6Te7QGyLikVrJxRoMaLPG7GYfnRFxiN190dX5A14wVLiCYSCGqniw==
-    size: 229091600
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.6/muscat-sim-0.11.6-win-x64.exe
-    sha512: Tfop92hRFvVxnJTzLMAr4pGgIXMDVC1mhERMjDy7AqKSudpkKUv8H3Km1AAbEXxLHp1Yx2RHTnZcuzId7yquEA==
-    size: 116164943
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.6/muscat-sim-0.11.6-win-arm64.exe
-    sha512: bRQ/avnIwxNEpZA6Qz7vOcapw1Jwvkm+teKCwsLRvuvoks3mPsVxxi+vdWvaQDzc1m/fRbkPN92l50Cq4T4zCA==
-    size: 113500882
-path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.6/muscat-sim-0.11.6-win.exe
-sha512: I7aaoO4prj8WHFrO7kkAeSnKW77uJJFDb6Te7QGyLikVrJxRoMaLPG7GYfnRFxiN190dX5A14wVLiCYSCGqniw==
-releaseDate: '2026-11-13T18:47:45.395Z'
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.7/muscat-sim-0.11.7-win.exe
+    sha512: rw9WR+Z2VSpHrRFmbEW8q4NBu+/u46GdSgOvD+EHQaUQP3HfPcIchAX3aC/buTc4K30V0by0WRE77P7c1EwE0g==
+    size: 229090377
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.7/muscat-sim-0.11.7-win-x64.exe
+    sha512: 8DR4T77CSY7B9EVZTgMxnKeX6JfR7eYBn/dMofy9yYFmBc3S6FZmhqLkgqanMLx0RXvbU7qwWE6HeIfKttKujA==
+    size: 116164337
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.7/muscat-sim-0.11.7-win-arm64.exe
+    sha512: UMatZko6VBRcswJNbx6n63wLjPmlt9n+ojNnNs1HBDVlk72g/25upBozGMTklBykf/0GD0tabtt87ULySWqiCA==
+    size: 113500254
+path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.7/muscat-sim-0.11.7-win.exe
+sha512: rw9WR+Z2VSpHrRFmbEW8q4NBu+/u46GdSgOvD+EHQaUQP3HfPcIchAX3aC/buTc4K30V0by0WRE77P7c1EwE0g==
+releaseDate: '2026-11-16T03:37:37.084Z'
