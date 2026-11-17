@@ -9,7 +9,7 @@
       "hotfix": false
     },
     "common": {
-      "version": "0.11.8",
+      "version": "0.11.9",
       "hotfix": false
     },
     "host": {
@@ -33,7 +33,7 @@
       "hotfix": false
     }
   },
-  "total": "0.11.8",
-  "new_version": "0.11.8",
+  "total": "0.11.9",
+  "new_version": "0.11.9",
   "branch": "main"
 }
