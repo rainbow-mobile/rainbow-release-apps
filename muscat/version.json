@@ -5,11 +5,11 @@
       "hotfix": false
     },
     "amr": {
-      "version": "0.11.6",
+      "version": "0.11.7",
       "hotfix": false
     },
     "common": {
-      "version": "0.11.13",
+      "version": "0.11.15",
       "hotfix": false
     },
     "host": {
@@ -17,15 +17,15 @@
       "hotfix": false
     },
     "log": {
-      "version": "0.11.1",
+      "version": "0.11.3",
       "hotfix": false
     },
     "manipulate": {
-      "version": "0.11.6",
+      "version": "0.11.7",
       "hotfix": false
     },
     "rby1": {
-      "version": "0.10.1",
+      "version": "0.11.1",
       "hotfix": false
     },
     "vision": {
@@ -33,7 +33,7 @@
       "hotfix": false
     }
   },
-  "total": "0.11.12",
-  "new_version": "0.11.12",
+  "total": "0.11.13",
+  "new_version": "0.11.13",
   "branch": "main"
 }
