@@ -1,14 +1,14 @@
-version: 0.11.10
+version: 0.11.11
 files:
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.10/muscat-sim-0.11.10-win.exe
-    sha512: RSAdCrz2xh7o1w4vL3CDZucUGiQqIjn/qIKRn1VwtwXTJIAf0s3iAryvYITFydYpzYFLdev0XIrK6RdBhuoeow==
-    size: 229172661
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.10/muscat-sim-0.11.10-win-x64.exe
-    sha512: BCmYb5hi37knSEKQZF+724peYFoCb+Xp5IcaFe3v+ki3XygBGEAp3a6JVz5PaYcuQP6oIiOHitR3ECEDp4Zlhg==
-    size: 116205489
-  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.10/muscat-sim-0.11.10-win-arm64.exe
-    sha512: SR5inZr4TMXkA8HkyjRQMf2RUMM7CmX70Fm752zETKZJhn1w25yLQrJW6pyoMcTOghRL+bcgghqYAI3zIjEWfg==
-    size: 113541428
-path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.10/muscat-sim-0.11.10-win.exe
-sha512: RSAdCrz2xh7o1w4vL3CDZucUGiQqIjn/qIKRn1VwtwXTJIAf0s3iAryvYITFydYpzYFLdev0XIrK6RdBhuoeow==
-releaseDate: '2026-11-24T05:32:33.338Z'
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.11/muscat-sim-0.11.11-win.exe
+    sha512: SHt2K2DK1ECKWUk7UlW16/e7aYZnBoZlAaSHU3kESf1IrqjPArgbyGEeC9y35V9X/r56RB8E7i9+8VJX85QRoA==
+    size: 233855511
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.11/muscat-sim-0.11.11-win-x64.exe
+    sha512: Ndnug1oz5+4YgGZaodYN+NY216DnvsakToxlPsseDeAkRgYwmBasRPYGpmPIC6wS5liUNXURhdMmECbID3vQMQ==
+    size: 118546924
+  - url: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.11/muscat-sim-0.11.11-win-arm64.exe
+    sha512: etFc5rbWiSYqfNb9VTfEwCThJwyfab4Thxjq6rBQW+sHz4Bn+dopceJ0/NuHyF00yuPUNRhjYf0Fj+6k8Zt2pQ==
+    size: 115882840
+path: https://github.com/rainbow-mobile/rainbow-release-apps/releases/download/muscat-sim-v0.11.11/muscat-sim-0.11.11-win.exe
+sha512: SHt2K2DK1ECKWUk7UlW16/e7aYZnBoZlAaSHU3kESf1IrqjPArgbyGEeC9y35V9X/r56RB8E7i9+8VJX85QRoA==
+releaseDate: '2026-11-25T00:43:32.381Z'
