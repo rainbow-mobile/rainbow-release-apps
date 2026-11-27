@@ -5,11 +5,11 @@
       "hotfix": false
     },
     "amr": {
-      "version": "amr-20261125134345",
+      "version": "amr-20261127170745",
       "hotfix": false
     },
     "common": {
-      "version": "common-20261127141549",
+      "version": "common-20261127170745",
       "hotfix": false
     },
     "host": {
@@ -29,7 +29,7 @@
       "hotfix": false
     }
   },
-  "total": "20261127141549",
-  "new_version": "20261127141549",
+  "total": "20261127170745",
+  "new_version": "20261127170745",
   "branch": "develop"
 }
